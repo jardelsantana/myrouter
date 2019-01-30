@@ -15,7 +15,7 @@ Suporta Boletos com Registro e Sem Registro, sistema de arquivo de remessa e ret
 
 Download da imagem OVA.
 
-https://drive.google.com/open?id=1FvBzxF561lBp2B_jD29iWinfIxKJ7ItU 
+
 
 Para acesso ao sistema via web
 http://IPDOSERVIDOR/myrouter/
