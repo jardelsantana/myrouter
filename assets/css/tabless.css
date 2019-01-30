@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+#boleto_parceiro {
+        height: 350px;
+        width: 666px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 15px;
+        border-bottom-width: 1px;
+        border-bottom-style: dashed;
+        border-bottom-color: #000000;
+}
+.am {
+        font-size: 9px;
+        color: #333333;
+        height: 10px;
+        font-weight: bold;
+        margin-bottom: 2px;
+        text-align: center;
+        width: 320px;
+        border-top-width: 1px;
+        border-right-width: 2px;
+        border-left-width: 2px;
+        border-top-style: solid;
+        border-right-style: solid;
+        border-left-style: solid;
+        border-top-color: #000000;
+        border-right-color: #000000;
+        border-left-color: #000000;
+}
+#boleto{
+        height: 416px;
+        width: 666px;
+        color: #000000;
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+#tb_logo {
+        height: 40px;
+        width: 666px;
+        border-bottom-width: 2px;
+        border-bottom-style: solid;
+        border-bottom-color: #000000;
+}
+#tb_logo #td_banco {
+        height: 22px;
+        width: 53px;
+        border-right-width: 2px;
+        border-left-width: 2px;
+        border-right-style: solid;
+        border-left-style: solid;
+        border-right-color: #000000;
+        border-left-color: #000000;
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+}
+.ld {font: bold 15px Arial; color: #000000}
+.td_7_sb {
+        height: 26px;
+        width: 7px;
+}
+.td_7_cb {
+        width: 7px;
+        border-left-width: 1px;
+        border-left-style: solid;
+        border-left-color: #000000;
+        height: 26px;
+}
+.td_2 {
+        width: 2px;
+}
+.tabelas td{
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: #000000;
+}
+.direito {
+        width: 178px;
+}
+.titulo {
+        font-size: 9px;
+        color: #333333;
+        height: 10px;
+        font-weight: bold;
+        margin-bottom: 2px;
+}
+.var {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        height: 13px;
+}
+.direito .var{
+        text-align: right;
+}
+
+table.bordasimples {
+border-collapse: collapse;
+}
+
+table.bordasimples tr td {
+	border:2px solid #FFFFFF;
+	background-color: #CCCCCC;
+}
