@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?><cancelamento> 
+<cliente> 
+	<codc>5</codc> 
+	<cliente>Loja teste LTDA</cliente> 
+	<cpfcnpj>00000000000001</cpfcnpj> 
+	<email>teste@email.com.br</email> 
+	<endereco>Rua Alvarenga Peixoto</endereco> 
+</cliente> 
+
+<cobranca> 
+	<xNome>Loja teste LTDA</xNome>
+ 	<codc>5</codc> 
+ 	<cpfcnpj>00000000000001</cpfcnpj>
+  	<email>teste@email.com.br</email>
+   	<endereco>Rua Alvarenga Peixoto</endereco> 
+   	<chave>00001-9999999-LELA4</chave>
+    <retorno>238</retorno> 
+	<pedido>9999999</pedido> 
+	<chaveLote>00001_2_RAATA0</chaveLote>
+	<vencimento>23/08/2011</vencimento> 
+	<dataFin>00/00/0000</dataFin>
+	<dataCanc>13/08/2011</dataCanc> 
+	
+	 <dataCredito/> 
+	  <pagconf>n</pagconf> 
+	  <status>c</status> 
+	  <assinatura>4aaf9bebf21307036319a8c1b39fd1ee</assinatura>
+	  <pag>pag1</pag> 
+	  <total>1200</total> 
+	  <nparcela>0</nparcela>
+</cobranca>
+		 <itens>
+			 <item> 
+			 <produto>Produto teste</produto> 
+			 <valor>1200</valor> 
+			 <quantidade>1</quantidade>
+		  	</item> 
+		 </itens> 
+ </cancelamento>
