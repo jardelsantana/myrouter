@@ -51,37 +51,6 @@ header("Content-Type: text/html; charset=ISO-8859-1", true);
     $gper = $mysqli->query("SELECT * FROM permissoes WHERE codigo = '$idpuser'");
     $permissao = mysqli_fetch_array($gper);
     
-    
-    $cskey = $mysqli->query("SELECT * FROM empresa WHERE id = '1'");
-    $chavekey = mysqli_fetch_array($cskey);
-    
-    $chave = $chavekey['chave'];
-    $cnpj = $chavekey['cnpj'];
-
-/*
-//REGISTRO DE LICENÇA
-$ch = curl_init();
-
-curl_setopt($ch, CURLOPT_URL,"http://key.myrouter.com.br/keyerpmk.php");
-curl_setopt($ch, CURLOPT_POST, true);
-curl_setopt($ch, CURLOPT_POSTFIELDS,"chave=$chave&cnpj=$cnpj");
-curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-
-$server_output = curl_exec ($ch);
-
-curl_close ($ch);
-
-$regstatus = json_decode($server_output);
-echo $regstatus;
-if ($regstatus == "OK") { 
-
-} else { 
-echo '<script>
-        alert ("ATENÇÃO CHAVE NÃO REGISTRADA!");
-        document.location.href = ("certificado.php");
-</script>'; 
-}*/
-
 
 /* Para Boqueio Automatico Desabilite Abaixo recomendamos ativar o cron.php pelo CRONJOBS
 Comando
