@@ -1,0 +1,16 @@
+#logo {
+  max-width: 400px;
+  width: 100%;
+}
+.nota {
+  font-size:3.5em;
+  font-decoration: bold;
+}
+.center{
+  text-align:center;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+  color: #222222!important;
+}
+#navgroup {text-align:center;}
+#navgroup div {display:inline-block;}
